@@ -1,0 +1,8 @@
+BussLocate.MainActivity, BussLocate;md5373dc137b2bb54aff7a86e7202f1551e.MainActivity
+BussLocate.MainActivity, BussLocate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5373dc137b2bb54aff7a86e7202f1551e.MainActivity
+BussLocate.MainActivity;md5373dc137b2bb54aff7a86e7202f1551e.MainActivity
+busslocate.MainActivity;md5373dc137b2bb54aff7a86e7202f1551e.MainActivity
+BussLocate.Activityes.LocationActivity, BussLocate;md533be7d54c70c7d9c9b23eb145ae6cd0f.LocationActivity
+BussLocate.Activityes.LocationActivity, BussLocate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md533be7d54c70c7d9c9b23eb145ae6cd0f.LocationActivity
+BussLocate.Activityes.LocationActivity;md533be7d54c70c7d9c9b23eb145ae6cd0f.LocationActivity
+busslocate.activityes.LocationActivity;md533be7d54c70c7d9c9b23eb145ae6cd0f.LocationActivity

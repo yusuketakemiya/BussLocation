@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="returnButtonMessage">戻る</string>
+  <string name="locationButtonMessage">Location</string>
+  <string name="app_name">BussLocate</string>
+</resources>

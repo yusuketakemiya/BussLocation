@@ -10,11 +10,30 @@ namespace BussLocate
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Manager.Load();
+
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Main);
-            FindViewById<Button>(Resource.Id.LocationActiveButton).Click += (s, e) =>
+
+            foreach (var location in Manager.Locations)
             {
-                StartActivity(typeof(LocationActivity));
+                // ボタンの設定
+                Button button = new Button(this);
+                button.Text = location.Text;
+                button.Click += (s, e) =>
+                {
+                    StartActivity(typeof(LocationActivity));
+                };
+                layout.addView(button);
+            }
+
+            //FindViewById<Button>(Resource.Id.LocationActiveButton).Click += (s, e) =>
+            //{
+            //    StartActivity(typeof(LocationActivity));
+            //};
+            FindViewById<Button>(Resource.Id.LocationAddButton).Click += (s, e) =>
+            {
+                //Manager.Add();
             };
         }
     }
